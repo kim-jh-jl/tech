@@ -72,7 +72,7 @@ I (..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x50FDFE
 I (..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x50FDFE2E)
 I (..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x50FDFE2E)
 I (..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery.h)(0x50FDFE2E)
-I (..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery_audio_codec.h)(0x5E707552)
+I (..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery_audio_codec.h)(0x5E7086EE)
 I (..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery_lis302dl.h)(0x50FDFE2E)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AC40A)
 I (..\inc\stm32f4xx_it.h)(0x50FDFE2E)
@@ -114,7 +114,7 @@ I (..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x50FDFE
 I (..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x50FDFE2E)
 I (..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x50FDFE2E)
 I (..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery.h)(0x50FDFE2E)
-I (..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery_audio_codec.h)(0x5E707552)
+I (..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery_audio_codec.h)(0x5E7086EE)
 I (..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery_lis302dl.h)(0x50FDFE2E)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AC40A)
 I (..\inc\stm32f4xx_it.h)(0x50FDFE2E)
@@ -156,7 +156,7 @@ I (..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x50FDFE2
 I (..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x50FDFE2E)
 F (..\src\usb_bsp.c)(0x50FDFE2E)()
 F (..\src\usbh_usr.c)(0x50FDFE2E)()
-F (..\src\waveplayer.c)(0x5E7068AA)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I ..\..\..\Libraries\CMSIS\Include -I ..\..\..\Utilities\Third_Party\fat_fs\inc -I ..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I ..\..\..\Libraries\STM32_USB_HOST_Library\Core\inc -I ..\..\..\Libraries\STM32_USB_HOST_Library\Class\MSC\inc -I ..\..\..\Libraries\STM32_USB_OTG_Driver\inc -I ..\..\..\Utilities\STM32F4-Discovery-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\ST\STM32F4xx-D__UVISION_VERSION="529" -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS -DSTM32F4XX -DMEDIA_IntFLASH-o .\media_intflash\waveplayer.o --omf_browse .\media_intflash\waveplayer.crf --depend .\media_intflash\waveplayer.d)
+F (..\src\waveplayer.c)(0x5E70871D)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I ..\..\..\Libraries\CMSIS\Include -I ..\..\..\Utilities\Third_Party\fat_fs\inc -I ..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I ..\..\..\Libraries\STM32_USB_HOST_Library\Core\inc -I ..\..\..\Libraries\STM32_USB_HOST_Library\Class\MSC\inc -I ..\..\..\Libraries\STM32_USB_OTG_Driver\inc -I ..\..\..\Utilities\STM32F4-Discovery-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\ST\STM32F4xx-D__UVISION_VERSION="529" -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS -DSTM32F4XX -DMEDIA_IntFLASH-o .\media_intflash\waveplayer.o --omf_browse .\media_intflash\waveplayer.crf --depend .\media_intflash\waveplayer.d)
 I (..\inc\main.h)(0x5E702481)
 I (..\..\..\Libraries\CMSIS\ST\STM32F4xx\Include\stm32f4xx.h)(0x50FDFE2E)
 I (..\..\..\Libraries\CMSIS\Include\core_cm4.h)(0x50FDFE2E)
@@ -193,7 +193,7 @@ I (..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x50FDFE
 I (..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x50FDFE2E)
 I (..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x50FDFE2E)
 I (..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery.h)(0x50FDFE2E)
-I (..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery_audio_codec.h)(0x5E707552)
+I (..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery_audio_codec.h)(0x5E7086EE)
 I (..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery_lis302dl.h)(0x50FDFE2E)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AC40A)
 I (..\inc\stm32f4xx_it.h)(0x50FDFE2E)
@@ -272,7 +272,7 @@ I (..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x50FDFE
 I (..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h)(0x50FDFE2E)
 I (..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x50FDFE2E)
 F (..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery_audio_codec.c)(0x50FDFE2E)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\..\..\Libraries\CMSIS\ST\STM32F4xx\Include -I ..\..\..\Libraries\CMSIS\Include -I ..\..\..\Utilities\Third_Party\fat_fs\inc -I ..\..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I ..\..\..\Libraries\STM32_USB_HOST_Library\Core\inc -I ..\..\..\Libraries\STM32_USB_HOST_Library\Class\MSC\inc -I ..\..\..\Libraries\STM32_USB_OTG_Driver\inc -I ..\..\..\Utilities\STM32F4-Discovery-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\ST\STM32F4xx-D__UVISION_VERSION="529" -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS -DSTM32F4XX -DMEDIA_IntFLASH-o .\media_intflash\stm32f4_discovery_audio_codec.o --omf_browse .\media_intflash\stm32f4_discovery_audio_codec.crf --depend .\media_intflash\stm32f4_discovery_audio_codec.d)
-I (..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery_audio_codec.h)(0x5E707552)
+I (..\..\..\Utilities\STM32F4-Discovery\stm32f4_discovery_audio_codec.h)(0x5E7086EE)
 I (..\..\..\Libraries\CMSIS\ST\STM32F4xx\Include\stm32f4xx.h)(0x50FDFE2E)
 I (..\..\..\Libraries\CMSIS\Include\core_cm4.h)(0x50FDFE2E)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AC408)

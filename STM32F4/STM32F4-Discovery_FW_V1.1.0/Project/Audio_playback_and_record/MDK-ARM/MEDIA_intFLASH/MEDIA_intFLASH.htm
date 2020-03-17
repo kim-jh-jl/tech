@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\MEDIA_intFLASH\MEDIA_intFLASH.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\MEDIA_intFLASH\MEDIA_intFLASH.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060750: Last Updated: Tue Mar 17 16:13:06 2020
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060750: Last Updated: Tue Mar 17 17:15:34 2020
 <BR><P>
 <H3>Maximum Stack Usage =        148 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -87,8 +87,8 @@ Function Pointers
  <LI><a href="#[0]">Reset_Handler</a> from startup_stm32f4xx.o(.text) referenced from startup_stm32f4xx.o(RESET)
  <LI><a href="#[3b]">SDIO_IRQHandler</a> from startup_stm32f4xx.o(.text) referenced from startup_stm32f4xx.o(RESET)
  <LI><a href="#[2d]">SPI1_IRQHandler</a> from startup_stm32f4xx.o(.text) referenced from startup_stm32f4xx.o(RESET)
- <LI><a href="#[2e]">SPI2_IRQHandler</a> from stm32f4_discovery_audio_codec.o(i.SPI2_IRQHandler) referenced from startup_stm32f4xx.o(RESET)
- <LI><a href="#[3d]">SPI3_IRQHandler</a> from startup_stm32f4xx.o(.text) referenced from startup_stm32f4xx.o(RESET)
+ <LI><a href="#[2e]">SPI2_IRQHandler</a> from startup_stm32f4xx.o(.text) referenced from startup_stm32f4xx.o(RESET)
+ <LI><a href="#[3d]">SPI3_IRQHandler</a> from stm32f4_discovery_audio_codec.o(i.SPI3_IRQHandler) referenced from startup_stm32f4xx.o(RESET)
  <LI><a href="#[6]">SVC_Handler</a> from stm32f4xx_it.o(i.SVC_Handler) referenced from startup_stm32f4xx.o(RESET)
  <LI><a href="#[9]">SysTick_Handler</a> from stm32f4xx_it.o(i.SysTick_Handler) referenced from startup_stm32f4xx.o(RESET)
  <LI><a href="#[5d]">SystemInit</a> from system_stm32f4xx.o(i.SystemInit) referenced from startup_stm32f4xx.o(.text)
@@ -317,7 +317,7 @@ Global Symbols
 <P><STRONG><a name="[2d]"></a>SPI1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f4xx.o(.text))
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f4xx.o(RESET)
 </UL>
-<P><STRONG><a name="[3d]"></a>SPI3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f4xx.o(.text))
+<P><STRONG><a name="[2e]"></a>SPI2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f4xx.o(.text))
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f4xx.o(RESET)
 </UL>
 <P><STRONG><a name="[c]"></a>TAMP_STAMP_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f4xx.o(.text))
@@ -449,7 +449,7 @@ Global Symbols
 <P><STRONG><a name="[af]"></a>DAC_SetChannel1Data</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, stm32f4xx_dac.o(i.DAC_SetChannel1Data))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = DAC_SetChannel1Data
 </UL>
-<BR>[Called By]<UL><LI><a href="#[2e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI2_IRQHandler
+<BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI3_IRQHandler
 </UL>
 
 <P><STRONG><a name="[15]"></a>DMA1_Stream0_IRQHandler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f4_discovery_audio_codec.o(i.DMA1_Stream0_IRQHandler))
@@ -509,7 +509,7 @@ Global Symbols
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f4xx.o(RESET)
 </UL>
 <P><STRONG><a name="[ae]"></a>EVAL_AUDIO_GetSampleCallBack</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, waveplayer.o(i.EVAL_AUDIO_GetSampleCallBack))
-<BR><BR>[Called By]<UL><LI><a href="#[2e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI2_IRQHandler
+<BR><BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI3_IRQHandler
 </UL>
 
 <P><STRONG><a name="[93]"></a>EVAL_AUDIO_Init</STRONG> (Thumb, 40 bytes, Stack size 8 bytes, stm32f4_discovery_audio_codec.o(i.EVAL_AUDIO_Init))
@@ -547,7 +547,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WavePlayerInit
 </UL>
 
-<P><STRONG><a name="[95]"></a>EVAL_AUDIO_Stop</STRONG> (Thumb, 108 bytes, Stack size 8 bytes, stm32f4_discovery_audio_codec.o(i.EVAL_AUDIO_Stop))
+<P><STRONG><a name="[95]"></a>EVAL_AUDIO_Stop</STRONG> (Thumb, 106 bytes, Stack size 8 bytes, stm32f4_discovery_audio_codec.o(i.EVAL_AUDIO_Stop))
 <BR><BR>[Stack]<UL><LI>Max Depth = 84<LI>Call Chain = EVAL_AUDIO_Stop &rArr; Codec_WriteRegister &rArr; Codec_ReadRegister &rArr; I2C_GetFlagStatus
 </UL>
 <BR>[Calls]<UL><LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2S_Cmd
@@ -818,8 +818,8 @@ Global Symbols
 <LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[2e]"></a>SPI2_IRQHandler</STRONG> (Thumb, 52 bytes, Stack size 8 bytes, stm32f4_discovery_audio_codec.o(i.SPI2_IRQHandler))
-<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = SPI2_IRQHandler &rArr; DAC_SetChannel1Data
+<P><STRONG><a name="[3d]"></a>SPI3_IRQHandler</STRONG> (Thumb, 54 bytes, Stack size 8 bytes, stm32f4_discovery_audio_codec.o(i.SPI3_IRQHandler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = SPI3_IRQHandler &rArr; DAC_SetChannel1Data
 </UL>
 <BR>[Calls]<UL><LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAC_SetChannel1Data
 <LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_I2S_SendData
@@ -848,7 +848,7 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[a9]"></a>SPI_I2S_GetFlagStatus</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, stm32f4xx_spi.o(i.SPI_I2S_GetFlagStatus))
-<BR><BR>[Called By]<UL><LI><a href="#[2e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI2_IRQHandler
+<BR><BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI3_IRQHandler
 <LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS302DL_SendByte
 </UL>
 
@@ -861,7 +861,7 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[aa]"></a>SPI_I2S_SendData</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f4xx_spi.o(i.SPI_I2S_SendData))
-<BR><BR>[Called By]<UL><LI><a href="#[2e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI2_IRQHandler
+<BR><BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI3_IRQHandler
 <LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LIS302DL_SendByte
 </UL>
 
@@ -1114,7 +1114,7 @@ Local Symbols
 <LI><a href="#[15]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA1_Stream0_IRQHandler
 </UL>
 
-<P><STRONG><a name="[6b]"></a>Audio_MAL_Init</STRONG> (Thumb, 188 bytes, Stack size 24 bytes, stm32f4_discovery_audio_codec.o(i.Audio_MAL_Init))
+<P><STRONG><a name="[6b]"></a>Audio_MAL_Init</STRONG> (Thumb, 190 bytes, Stack size 24 bytes, stm32f4_discovery_audio_codec.o(i.Audio_MAL_Init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 76<LI>Call Chain = Audio_MAL_Init &rArr; DAC_Config &rArr; GPIO_Init
 </UL>
 <BR>[Calls]<UL><LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_I2S_ITConfig
@@ -1142,7 +1142,7 @@ Local Symbols
 <BR>[Called By]<UL><LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Codec_Init
 </UL>
 
-<P><STRONG><a name="[7b]"></a>Codec_GPIO_Init</STRONG> (Thumb, 266 bytes, Stack size 32 bytes, stm32f4_discovery_audio_codec.o(i.Codec_GPIO_Init))
+<P><STRONG><a name="[7b]"></a>Codec_GPIO_Init</STRONG> (Thumb, 262 bytes, Stack size 32 bytes, stm32f4_discovery_audio_codec.o(i.Codec_GPIO_Init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = Codec_GPIO_Init &rArr; GPIO_Init
 </UL>
 <BR>[Calls]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_PinAFConfig
@@ -1194,8 +1194,8 @@ Local Symbols
 <BR>[Called By]<UL><LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Codec_WriteRegister
 </UL>
 
-<P><STRONG><a name="[7f]"></a>Codec_Reset</STRONG> (Thumb, 40 bytes, Stack size 16 bytes, stm32f4_discovery_audio_codec.o(i.Codec_Reset))
-<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = Codec_Reset &rArr; Delay
+<P><STRONG><a name="[7f]"></a>Codec_Reset</STRONG> (Thumb, 36 bytes, Stack size 8 bytes, stm32f4_discovery_audio_codec.o(i.Codec_Reset))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = Codec_Reset &rArr; Delay
 </UL>
 <BR>[Calls]<UL><LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_WriteBit
 <LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Delay

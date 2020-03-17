@@ -113,16 +113,16 @@
                     Hardware Configuration defines parameters
                                      -----------------------------------------*/
 /* Audio Reset Pin definition */
-/*#define AUDIO_RESET_GPIO_CLK           RCC_AHB1Periph_GPIOD
-#define AUDIO_RESET_PIN                GPIO_Pin_4
-#define AUDIO_RESET_GPIO               GPIOD*/
-
 #define AUDIO_RESET_GPIO_CLK           RCC_AHB1Periph_GPIOD
+#define AUDIO_RESET_PIN                GPIO_Pin_4
+#define AUDIO_RESET_GPIO               GPIOD
+
+/*#define AUDIO_RESET_GPIO_CLK           RCC_AHB1Periph_GPIOD
 #define AUDIO_RESET_PIN                GPIO_Pin_10
-#define AUDIO_RESET_GPIO               GPIOA
+#define AUDIO_RESET_GPIO               GPIOA*/
 
 /* I2S peripheral configuration defines */
-/*#define CODEC_I2S                      SPI3
+#define CODEC_I2S                      SPI3
 #define CODEC_I2S_CLK                  RCC_APB1Periph_SPI3
 #define CODEC_I2S_ADDRESS              0x40003C0C
 #define CODEC_I2S_GPIO_AF              GPIO_AF_SPI3
@@ -139,9 +139,9 @@
 #define CODEC_I2S_GPIO                 GPIOC
 #define CODEC_I2S_WS_GPIO              GPIOA
 #define CODEC_I2S_MCK_GPIO             GPIOC
-#define Audio_I2S_IRQHandler           SPI3_IRQHandler*/
+#define Audio_I2S_IRQHandler           SPI3_IRQHandler
 
-#define CODEC_I2S                      SPI2
+/*#define CODEC_I2S                      SPI2
 #define CODEC_I2S_CLK                  RCC_APB1Periph_SPI2
 #define CODEC_I2S_ADDRESS              0x40003C0C
 #define CODEC_I2S_GPIO_AF              GPIO_AF_SPI2
@@ -158,7 +158,7 @@
 #define CODEC_I2S_GPIO                 GPIOB
 #define CODEC_I2S_WS_GPIO              GPIOB
 #define CODEC_I2S_MCK_GPIO             GPIOC
-#define Audio_I2S_IRQHandler           SPI2_IRQHandler
+#define Audio_I2S_IRQHandler           SPI2_IRQHandler*/
 
  #define AUDIO_MAL_DMA_PERIPH_DATA_SIZE DMA_PeripheralDataSize_HalfWord
  #define AUDIO_MAL_DMA_MEM_DATA_SIZE    DMA_MemoryDataSize_HalfWord
