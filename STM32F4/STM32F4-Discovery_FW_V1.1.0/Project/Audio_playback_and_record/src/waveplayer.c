@@ -34,8 +34,8 @@
 extern uint16_t AUDIO_SAMPLE[];
 /* Audio file size and start address are defined here since the audio file is
     stored in Flash memory as a constant table of 16-bit data */
-#define AUDIO_FILE_SZE          140000
-#define AUIDO_START_ADDRESS     10 /* Offset relative to audio file header size */
+#define AUDIO_FILE_SZE          131128
+#define AUIDO_START_ADDRESS     58 /* Offset relative to audio file header size */
 #endif
 
 /* Private macro -------------------------------------------------------------*/
@@ -113,7 +113,7 @@ void WavePlayBack(uint32_t AudioFreq)
 #if defined MEDIA_IntFLASH
 
   /* Initialize wave player (Codec, DMA, I2C) */
-  WavePlayerInit(AudioFreq/2);
+  WavePlayerInit(AudioFreq);
 
   /* Play on */
   AudioFlashPlay((uint16_t*)(AUDIO_SAMPLE + AUIDO_START_ADDRESS),AUDIO_FILE_SZE,AUIDO_START_ADDRESS);

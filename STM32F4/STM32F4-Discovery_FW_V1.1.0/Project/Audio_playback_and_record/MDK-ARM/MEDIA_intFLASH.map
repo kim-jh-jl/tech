@@ -847,13 +847,13 @@ Image Symbol Table
     i.TimingDelay_Decrement                  0x08001d80   Section        0  waveplayer.o(i.TimingDelay_Decrement)
     i.UsageFault_Handler                     0x08001d94   Section        0  stm32f4xx_it.o(i.UsageFault_Handler)
     i.WavePlayBack                           0x08001d98   Section        0  waveplayer.o(i.WavePlayBack)
-    i.WavePlayerInit                         0x08001e0c   Section        0  waveplayer.o(i.WavePlayerInit)
-    i.__scatterload_copy                     0x08001e34   Section       14  handlers.o(i.__scatterload_copy)
-    i.__scatterload_null                     0x08001e42   Section        2  handlers.o(i.__scatterload_null)
-    i.__scatterload_zeroinit                 0x08001e44   Section       14  handlers.o(i.__scatterload_zeroinit)
-    i.main                                   0x08001e54   Section        0  main.o(i.main)
-    .constdata                               0x08001ecc   Section    13274  audio_sample.o(.constdata)
-    .constdata                               0x080052a8   Section       36  stm32f4_discovery.o(.constdata)
+    i.WavePlayerInit                         0x08001e08   Section        0  waveplayer.o(i.WavePlayerInit)
+    i.__scatterload_copy                     0x08001e30   Section       14  handlers.o(i.__scatterload_copy)
+    i.__scatterload_null                     0x08001e3e   Section        2  handlers.o(i.__scatterload_null)
+    i.__scatterload_zeroinit                 0x08001e40   Section       14  handlers.o(i.__scatterload_zeroinit)
+    i.main                                   0x08001e50   Section        0  main.o(i.main)
+    .constdata                               0x08001ec8   Section    13274  audio_sample.o(.constdata)
+    .constdata                               0x080052a4   Section       36  stm32f4_discovery.o(.constdata)
     .data                                    0x20000000   Section        4  main.o(.data)
     .data                                    0x20000004   Section        6  stm32f4xx_it.o(.data)
     .data                                    0x2000000c   Section       20  system_stm32f4xx.o(.data)
@@ -1067,23 +1067,23 @@ Image Symbol Table
     TIM_TimeBaseInit                         0x08001d05   Thumb Code    96  stm32f4xx_tim.o(i.TIM_TimeBaseInit)
     TimingDelay_Decrement                    0x08001d81   Thumb Code    16  waveplayer.o(i.TimingDelay_Decrement)
     UsageFault_Handler                       0x08001d95   Thumb Code     2  stm32f4xx_it.o(i.UsageFault_Handler)
-    WavePlayBack                             0x08001d99   Thumb Code    90  waveplayer.o(i.WavePlayBack)
-    WavePlayerInit                           0x08001e0d   Thumb Code    34  waveplayer.o(i.WavePlayerInit)
-    __scatterload_copy                       0x08001e35   Thumb Code    14  handlers.o(i.__scatterload_copy)
-    __scatterload_null                       0x08001e43   Thumb Code     2  handlers.o(i.__scatterload_null)
-    __scatterload_zeroinit                   0x08001e45   Thumb Code    14  handlers.o(i.__scatterload_zeroinit)
-    main                                     0x08001e55   Thumb Code   102  main.o(i.main)
-    AUDIO_SAMPLE                             0x08001ecc   Data       13274  audio_sample.o(.constdata)
-    BUTTON_PORT_SOURCE                       0x080052a8   Data           1  stm32f4_discovery.o(.constdata)
-    BUTTON_PIN_SOURCE                        0x080052a9   Data           1  stm32f4_discovery.o(.constdata)
-    BUTTON_IRQn                              0x080052aa   Data           1  stm32f4_discovery.o(.constdata)
-    BUTTON_PIN                               0x080052ac   Data           2  stm32f4_discovery.o(.constdata)
-    BUTTON_EXTI_LINE                         0x080052ae   Data           2  stm32f4_discovery.o(.constdata)
-    BUTTON_CLK                               0x080052b0   Data           4  stm32f4_discovery.o(.constdata)
-    GPIO_PIN                                 0x080052b4   Data           8  stm32f4_discovery.o(.constdata)
-    GPIO_CLK                                 0x080052bc   Data          16  stm32f4_discovery.o(.constdata)
-    Region$$Table$$Base                      0x080052cc   Number         0  anon$$obj.o(Region$$Table)
-    Region$$Table$$Limit                     0x080052ec   Number         0  anon$$obj.o(Region$$Table)
+    WavePlayBack                             0x08001d99   Thumb Code    88  waveplayer.o(i.WavePlayBack)
+    WavePlayerInit                           0x08001e09   Thumb Code    34  waveplayer.o(i.WavePlayerInit)
+    __scatterload_copy                       0x08001e31   Thumb Code    14  handlers.o(i.__scatterload_copy)
+    __scatterload_null                       0x08001e3f   Thumb Code     2  handlers.o(i.__scatterload_null)
+    __scatterload_zeroinit                   0x08001e41   Thumb Code    14  handlers.o(i.__scatterload_zeroinit)
+    main                                     0x08001e51   Thumb Code   102  main.o(i.main)
+    AUDIO_SAMPLE                             0x08001ec8   Data       13274  audio_sample.o(.constdata)
+    BUTTON_PORT_SOURCE                       0x080052a4   Data           1  stm32f4_discovery.o(.constdata)
+    BUTTON_PIN_SOURCE                        0x080052a5   Data           1  stm32f4_discovery.o(.constdata)
+    BUTTON_IRQn                              0x080052a6   Data           1  stm32f4_discovery.o(.constdata)
+    BUTTON_PIN                               0x080052a8   Data           2  stm32f4_discovery.o(.constdata)
+    BUTTON_EXTI_LINE                         0x080052aa   Data           2  stm32f4_discovery.o(.constdata)
+    BUTTON_CLK                               0x080052ac   Data           4  stm32f4_discovery.o(.constdata)
+    GPIO_PIN                                 0x080052b0   Data           8  stm32f4_discovery.o(.constdata)
+    GPIO_CLK                                 0x080052b8   Data          16  stm32f4_discovery.o(.constdata)
+    Region$$Table$$Base                      0x080052c8   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x080052e8   Number         0  anon$$obj.o(Region$$Table)
     RepeatState                              0x20000000   Data           1  main.o(.data)
     CCR_Val                                  0x20000002   Data           2  main.o(.data)
     PauseResumeStatus                        0x20000004   Data           1  stm32f4xx_it.o(.data)
@@ -1126,9 +1126,9 @@ Memory Map of the image
 
   Image Entry point : 0x08000189
 
-  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x00005384, Max: 0x00100000, ABSOLUTE)
+  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x00005380, Max: 0x00100000, ABSOLUTE)
 
-    Execution Region ER_IROM1 (Exec base: 0x08000000, Load base: 0x08000000, Size: 0x000052ec, Max: 0x00100000, ABSOLUTE)
+    Execution Region ER_IROM1 (Exec base: 0x08000000, Load base: 0x08000000, Size: 0x000052e8, Max: 0x00100000, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
@@ -1269,37 +1269,37 @@ Memory Map of the image
     0x08001d80   0x08001d80   0x00000014   Code   RO          297    i.TimingDelay_Decrement  waveplayer.o
     0x08001d94   0x08001d94   0x00000002   Code   RO          184    i.UsageFault_Handler  stm32f4xx_it.o
     0x08001d96   0x08001d96   0x00000002   PAD
-    0x08001d98   0x08001d98   0x00000074   Code   RO          298    i.WavePlayBack      waveplayer.o
-    0x08001e0c   0x08001e0c   0x00000028   Code   RO          299    i.WavePlayerInit    waveplayer.o
-    0x08001e34   0x08001e34   0x0000000e   Code   RO         2798    i.__scatterload_copy  mc_w.l(handlers.o)
-    0x08001e42   0x08001e42   0x00000002   Code   RO         2799    i.__scatterload_null  mc_w.l(handlers.o)
-    0x08001e44   0x08001e44   0x0000000e   Code   RO         2800    i.__scatterload_zeroinit  mc_w.l(handlers.o)
-    0x08001e52   0x08001e52   0x00000002   PAD
-    0x08001e54   0x08001e54   0x00000078   Code   RO          123    i.main              main.o
-    0x08001ecc   0x08001ecc   0x000033da   Data   RO            2    .constdata          audio_sample.o
-    0x080052a6   0x080052a6   0x00000002   PAD
-    0x080052a8   0x080052a8   0x00000024   Data   RO          401    .constdata          stm32f4_discovery.o
-    0x080052cc   0x080052cc   0x00000020   Data   RO         2796    Region$$Table       anon$$obj.o
+    0x08001d98   0x08001d98   0x00000070   Code   RO          298    i.WavePlayBack      waveplayer.o
+    0x08001e08   0x08001e08   0x00000028   Code   RO          299    i.WavePlayerInit    waveplayer.o
+    0x08001e30   0x08001e30   0x0000000e   Code   RO         2798    i.__scatterload_copy  mc_w.l(handlers.o)
+    0x08001e3e   0x08001e3e   0x00000002   Code   RO         2799    i.__scatterload_null  mc_w.l(handlers.o)
+    0x08001e40   0x08001e40   0x0000000e   Code   RO         2800    i.__scatterload_zeroinit  mc_w.l(handlers.o)
+    0x08001e4e   0x08001e4e   0x00000002   PAD
+    0x08001e50   0x08001e50   0x00000078   Code   RO          123    i.main              main.o
+    0x08001ec8   0x08001ec8   0x000033da   Data   RO            2    .constdata          audio_sample.o
+    0x080052a2   0x080052a2   0x00000002   PAD
+    0x080052a4   0x080052a4   0x00000024   Data   RO          401    .constdata          stm32f4_discovery.o
+    0x080052c8   0x080052c8   0x00000020   Data   RO         2796    Region$$Table       anon$$obj.o
 
 
-    Execution Region RW_IRAM1 (Exec base: 0x20000000, Load base: 0x080052ec, Size: 0x000004e8, Max: 0x00020000, ABSOLUTE)
+    Execution Region RW_IRAM1 (Exec base: 0x20000000, Load base: 0x080052e8, Size: 0x000004e8, Max: 0x00020000, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
-    0x20000000   0x080052ec   0x00000004   Data   RW          125    .data               main.o
-    0x20000004   0x080052f0   0x00000006   Data   RW          185    .data               stm32f4xx_it.o
-    0x2000000a   0x080052f6   0x00000002   PAD
-    0x2000000c   0x080052f8   0x00000014   Data   RW          257    .data               system_stm32f4xx.o
-    0x20000020   0x0800530c   0x00000008   Data   RW          304    .data               waveplayer.o
-    0x20000028   0x08005314   0x00000006   Data   RW          307    .data               waveplayer.o
-    0x2000002e   0x0800531a   0x00000002   PAD
-    0x20000030   0x0800531c   0x00000014   Data   RW          402    .data               stm32f4_discovery.o
-    0x20000044   0x08005330   0x00000004   Data   RW          458    .data               stm32f4_discovery_lis302dl.o
-    0x20000048   0x08005334   0x00000040   Data   RW          556    .data               stm32f4_discovery_audio_codec.o
-    0x20000088   0x08005374   0x00000010   Data   RW         1836    .data               stm32f4xx_rcc.o
+    0x20000000   0x080052e8   0x00000004   Data   RW          125    .data               main.o
+    0x20000004   0x080052ec   0x00000006   Data   RW          185    .data               stm32f4xx_it.o
+    0x2000000a   0x080052f2   0x00000002   PAD
+    0x2000000c   0x080052f4   0x00000014   Data   RW          257    .data               system_stm32f4xx.o
+    0x20000020   0x08005308   0x00000008   Data   RW          304    .data               waveplayer.o
+    0x20000028   0x08005310   0x00000006   Data   RW          307    .data               waveplayer.o
+    0x2000002e   0x08005316   0x00000002   PAD
+    0x20000030   0x08005318   0x00000014   Data   RW          402    .data               stm32f4_discovery.o
+    0x20000044   0x0800532c   0x00000004   Data   RW          458    .data               stm32f4_discovery_lis302dl.o
+    0x20000048   0x08005330   0x00000040   Data   RW          556    .data               stm32f4_discovery_audio_codec.o
+    0x20000088   0x08005370   0x00000010   Data   RW         1836    .data               stm32f4xx_rcc.o
     0x20000098        -       0x00000010   Zero   RW          124    .bss                main.o
     0x200000a8        -       0x0000003c   Zero   RW          554    .bss                stm32f4_discovery_audio_codec.o
-    0x200000e4   0x08005384   0x00000004   PAD
+    0x200000e4   0x08005380   0x00000004   PAD
     0x200000e8        -       0x00000400   Zero   RW         2770    STACK               startup_stm32f4xx.o
 
 
@@ -1328,10 +1328,10 @@ Image component sizes
         48          6          0          0          0        808   stm32f4xx_syscfg.o
        326         36          0          0          0       9237   stm32f4xx_tim.o
        308         44          0         20          0       2161   system_stm32f4xx.o
-       522         52          0         14          0       7667   waveplayer.o
+       518         50          0         14          0       7667   waveplayer.o
 
     ----------------------------------------------------------------------
-      7404        658      13736        152       1104     418963   Object Totals
+      7400        656      13736        152       1104     418963   Object Totals
          0          0         32          0          0          0   (incl. Generated)
         26          0          2          4          4          0   (incl. Padding)
 
@@ -1370,15 +1370,15 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-      7492        674      13736        152       1104     408435   Grand Totals
-      7492        674      13736        152       1104     408435   ELF Image Totals
-      7492        674      13736        152          0          0   ROM Totals
+      7488        672      13736        152       1104     408435   Grand Totals
+      7488        672      13736        152       1104     408435   ELF Image Totals
+      7488        672      13736        152          0          0   ROM Totals
 
 ==============================================================================
 
-    Total RO  Size (Code + RO Data)                21228 (  20.73kB)
+    Total RO  Size (Code + RO Data)                21224 (  20.73kB)
     Total RW  Size (RW Data + ZI Data)              1256 (   1.23kB)
-    Total ROM Size (Code + RO Data + RW Data)      21380 (  20.88kB)
+    Total ROM Size (Code + RO Data + RW Data)      21376 (  20.88kB)
 
 ==============================================================================
 
